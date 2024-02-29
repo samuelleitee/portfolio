@@ -10,7 +10,10 @@ export function Footer() {
       <nav>
         <ul>
           <li>
-            <a href="https://linkedin.com/in/samuel-leite-pereira" target="_blank">
+            <a
+              href="https://linkedin.com/in/samuel-leite-pereira"
+              target="_blank"
+            >
               <img src={linkedin} alt="linkedin" />
             </a>
           </li>
