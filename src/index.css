@@ -1,0 +1,35 @@
+:root {
+  /* Font styles */
+  --headline-text: 3.875rem;
+  --subheadline-text: 2rem;
+  --body-text: 1.125rem;
+  --lables: 1rem;
+  --code-snippets: 0.875rem;
+
+  /* Color styles */
+  --primary-01080E: #01080E;
+  --primary-011627: #011627;
+  --primary-011221: #011221;
+  --secondary-607B96: #607B96;
+  --secondary-3C9D93: #3C9D93;
+  --secondary-4D5BCE: #4D5BCE;
+  --secondary-FFFFFF: #FFFFFF;
+  --accent-FEA55F: #FEA55F;
+  --accent-43D9AD: #43D9AD;
+  --accent-E99287: #E99287;
+  --accent-C98BDF: #C98BDF;
+
+  font-family: "Fira Code", monospace;
+  background-color: #010C15;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
