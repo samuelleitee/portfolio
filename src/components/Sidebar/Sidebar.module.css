@@ -29,8 +29,19 @@
 .informations div {
     display: flex;
     flex-direction: column;
-    gap: 33px;
-
     border-right: 1px solid #1E2D3D;
+}
+
+.link {
     padding: 1.063rem 1.5rem;
+    opacity: 0.4;
+}
+
+.link:hover {
+    opacity: 1;
+}
+
+.linkActive {
+    padding: 1.063rem 1.5rem;
+    opacity: 1;
 }
