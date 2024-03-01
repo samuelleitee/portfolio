@@ -1,0 +1,36 @@
+.aside {
+    display: grid;
+    grid-template-rows: auto 1fr;
+
+    max-width: 310px;
+    border-right: 1px solid #1E2D3D;
+}
+
+.aside header a {
+    display: inline-block;
+    padding: 1.063rem 9.625rem 1.063rem 2rem;
+    text-decoration: none;
+    color: var(--secondary-607B96);
+    border-bottom: 3px solid transparent;
+}
+
+.aside header {
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #1E2D3D;
+    height: fit-content;
+}
+
+.aside .informations {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.informations div {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+
+    border-right: 1px solid #1E2D3D;
+    padding: 1.063rem 1.5rem;
+}

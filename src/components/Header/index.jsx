@@ -5,7 +5,6 @@ export function Header(){
         <header className={styles.header}>
             <nav>
                 <ul>
-                    <li><a href="">samuel-leite</a></li>
                     <li><a href="">_hello</a></li>
                     <li><a href="">_about-me</a></li>
                     <li><a href="">_projects</a></li>
