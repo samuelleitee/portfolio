@@ -1,0 +1,33 @@
+.details {
+    color: var(--secondary-FFFFFF);
+    height: fit-content;
+}
+
+.details summary {
+    max-width: 100%;
+    padding: 0.625rem 0.875rem;
+    border-top: 1px solid #1E2D3D;
+    border-bottom: 1px solid #1E2D3D;
+    cursor: pointer;
+    /* list-style-image: url("../../assets/svg/expand.svg"); */
+}
+
+.details div {
+    padding: 0.625rem 0.875rem;
+}
+
+/* .details:nth-child(1) summary {
+    border-top: 0;
+} */
+
+.element {
+    display: flex;
+    align-items: start;
+    gap: 0.5rem;
+
+    color: var(--secondary-607B96);
+}
+
+.element p {
+    word-break: break-all;
+}
