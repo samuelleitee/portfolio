@@ -2,6 +2,7 @@
     display: grid;
     grid-template-rows: auto 1fr;
 
+    width: 310px;
     max-width: 310px;
     border-right: 1px solid #1E2D3D;
 }
