@@ -1,5 +1,7 @@
+import styles from "./Hobbies.module.css"
+
 export function Hobbies() {
     return(
-        <p>HOBBIES</p>
+        <p className={styles.hobbies}>HOBBIES</p>
     )
 }
