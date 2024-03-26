@@ -37,6 +37,6 @@
 .App {
   display: grid;
   grid-template-columns: auto 1fr;
-  grid-template-rows: 1fr auto auto;
+  grid-template-rows: auto 1fr auto;
   height: 100vh;
 }
