@@ -1,3 +1,4 @@
+import { useState } from "react";
 import styles from "./Sidebar.module.css";
 
 // Icons
@@ -9,6 +10,8 @@ import { Accordion, AccordionElement } from "./../Accordion/index";
 import { Link } from "react-router-dom";
 
 export function Sidebar() {
+  const path = window.location.pathname
+
   return (
     <aside className={styles.aside}>
       <header>
@@ -17,15 +20,15 @@ export function Sidebar() {
 
       <div className={styles.informations}>
         <div>
-          <Link to="professional" className={styles.linkActive}>
+          <Link to="professional" className={path === "/professional" ? styles.linkActive : styles.link}>
             <img src={professional} alt="" />
           </Link>
 
-          <Link to="personal" className={styles.link}>
+          <Link to="personal" className={path === "/personal" ? styles.linkActive : styles.link}>
             <img src={personal} alt="" />
           </Link>
 
-          <Link to="hobbies" className={styles.link}>
+          <Link to="hobbies" className={path === "/hobbies" ? styles.linkActive : styles.link}>
             <img src={hobbies} alt="" />
           </Link>
         </div>
