@@ -6,19 +6,18 @@
 .details summary {
     max-width: 100%;
     padding: 0.625rem 0.875rem;
-    border-top: 1px solid #1E2D3D;
-    border-bottom: 1px solid #1E2D3D;
+    border-bottom: 1px solid #1e2d3d;
     cursor: pointer;
-    /* list-style-image: url("../../assets/svg/expand.svg"); */
+    list-style-image: url("../../assets/svg/expand.svg");
 }
 
 .details div {
     padding: 0.625rem 0.875rem;
 }
 
-/* .details:nth-child(1) summary {
-    border-top: 0;
-} */
+.details:nth-child(2) summary {
+    border-top: 1px solid #1e2d3d;
+}
 
 .element {
     display: flex;
