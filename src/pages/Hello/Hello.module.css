@@ -1,0 +1,17 @@
+.span {
+    grid-row: 1 / 3;
+    width: fit-content;
+}
+
+.span p {
+    border-bottom: 1px solid #1e2d3d;
+    border-right: 1px solid #1e2d3d;
+}
+
+.a {
+    display: block;
+    padding: 1.063rem 9.625rem 1.063rem 2rem;
+    text-decoration: none;
+    color: var(--secondary-607B96);
+    border-bottom: 3px solid transparent;
+}

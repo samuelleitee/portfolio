@@ -1,4 +1,3 @@
-import { useState } from "react";
 import styles from "./Sidebar.module.css";
 
 // Icons
